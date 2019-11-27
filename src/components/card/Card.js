@@ -11,6 +11,7 @@ function SingleCard(props) {
   return (
   <Container className="cards">
     <Card style={{ width: '18rem' }}>
+      <a target="_blank" rel="noopener noreferrer" href={props.link}>
   <Card.Img className="dim" variant="top" src={props.image} />
   <Card.Body>
     <Card.Title className="near-black b f2">
@@ -18,7 +19,7 @@ function SingleCard(props) {
     </Card.Title>
     <Card.Text>
     {props.tech.map((tech, key) => {
-									return <button className={"tech-btn " + "f6 link dim ba bw2 ph3 pv2 mb2 dib black"} key={key}>{tech.name} </button>
+									return <button className={"tech-btn f6 link dim ba bw2 ph3 pv2 mb2 dib black"} key={key}>{tech.name} </button>
     })}
     
     </Card.Text>
@@ -26,6 +27,7 @@ function SingleCard(props) {
      {props.desc}
     </Card.Text>
   </Card.Body>
+  </a>
 </Card>
     </Container>
   );
