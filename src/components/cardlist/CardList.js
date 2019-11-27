@@ -17,9 +17,9 @@ function CardList() {
       <div className="card-wrapper">
         {
             projects.map(project => (
-              <a target="_blank" href={project.link}>
-          <SingleCard image= {project.image} title={project.title} tech={project.tech} desc={project.description}
-            /></a>
+              
+          <SingleCard link={project.link} image= {project.image} title={project.title} tech={project.tech} desc={project.description}
+            />
                 ))}
         </div>  
 </content>  
