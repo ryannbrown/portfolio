@@ -1,0 +1,25 @@
+.card-wrapper{
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.cards {
+    padding: 2%;
+   flex: 1 21%;
+}
+
+.card-body {
+    width:100%;
+}
+.card{
+width: 50rem !important;
+background-color:transparent;
+}
+
+.card-title.h5 {
+    height: auto;
+}
+
+.tech-btn {
+    margin:5px;
+}
