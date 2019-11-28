@@ -10,7 +10,9 @@ import projects from '../../data/projects.js'
 function SingleCard(props) {
   return (
   <Container className="cards">
-    <Card className="grow" style={{ width: '18rem' }}>
+    <Card className="grow"
+     style={{ width: '18rem' }}
+     >
       <a target="_blank" rel="noopener noreferrer" href={props.link}>
   <Card.Img variant="top" src={props.image} />
   <Card.Body>

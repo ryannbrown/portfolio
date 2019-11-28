@@ -1,6 +1,14 @@
   const projects = 
 [
   {
+    title: "Coleman Defense Solutions Ecommerce",
+    tech: [{ name: "React", class: "react-btn" }, { name: "Firebase", class: "fire-btn" }, { name: "Axios", class: "axios-btn" }, { name: "Express", class: "express-btn" }, { name: "Node", class: "node-btn" }],
+    description: "I am currently building a full-stack React ecommerce site for a family member. Currently I am working on the front end design and working with my endpoints to grab data from various inventory APIs which contain the relevant data. This business serves police forces and goverment personel to browse available equipment for their needs. My next step will be to build tools to filter by equipment specs. ",
+    link: "#",
+    image:"https://i.ibb.co/nc802s6/cds.png"
+
+    },
+  {
     title: "Dish It App",
     tech: [{ name: "React", class: "react-btn" }, { name: "CSS3", class: "css-btn" }, { name: "Node", class: "node-btn" }, { name: "Axios", class: "axios-btn" }, { name: "Express", class: "express-btn" }],
     description: "This is a full-stack web app for rating dishes that you eat at certain restaurants. It is a great way to keep track of your favorite dishes and to rate signature dishes. When you add a dish you can upload a picture, rate the dish, add a description, etc. You can access the dishes you have added in your profile page.You can also search dishes by location or by types of food.",
@@ -32,7 +40,7 @@
     title: "Fresh Finder Farmers Market Search App",
     tech: [{ name: "Jquery", class: "jquery-btn" }, { name: "CSS3", class: "css-btn" }, { name: "Bootstrap", class: "bootstrap-btn" }, { name: "Axios", class: "axios-btn" }],
     description: "This was my first front end project and first time tying into an API to display some kind of data that was meaningful to a user! I really enjoyed building this and it has a few bugs that I'd love to go back to and work out. I love going to farmers markets so I thought it was a fun idea.",
-    link: "http://ryannbrown.github.io/Group-Project-1",
+    link: "http://ryannbrown.github.io/Farmers-Market-Search-Application",
     image:"https://i.ibb.co/5vK1BwF/farmersmarket.png"
     }
     

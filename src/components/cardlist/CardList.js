@@ -14,7 +14,7 @@ function CardList() {
   <content>
      
      
-      <div className="card-wrapper">
+      <div id="portfolio" className="card-wrapper">
         {
             projects.map(project => (
               

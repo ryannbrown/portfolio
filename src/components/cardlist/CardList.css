@@ -12,8 +12,8 @@
     width:100%;
 }
 .card{
-width: 50rem !important;
 background-color:transparent;
+margin:0px auto;
 }
 
 .card-title.h5 {
@@ -22,4 +22,11 @@ background-color:transparent;
 
 .tech-btn {
     margin:5px;
+}
+
+@media (min-width:1000px) {
+    .card {
+    width: 45vw !important;
+    /* margin: 0px auto; */
+}
 }

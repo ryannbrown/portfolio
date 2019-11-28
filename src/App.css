@@ -1,3 +1,7 @@
+html {
+  scroll-behavior:smooth;
+}
+
 .App {
   text-align: center;
   background-color: #7eba95;
@@ -13,6 +17,11 @@
 
 .App-logo {
   height: 40vmin;
+}
+
+
+#root > div > div:nth-child(2) > header > div:nth-child(1) > div {
+  margin-top: -60%;
 }
 
 
