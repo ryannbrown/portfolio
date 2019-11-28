@@ -20,7 +20,7 @@ function CardList() {
               
           <SingleCard link={project.link} image= {project.image} title={project.title} tech={project.tech} desc={project.description}
             />
-                ))}
+                ))};
         </div>  
 </content>  
     
