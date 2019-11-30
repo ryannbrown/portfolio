@@ -12,7 +12,7 @@ function Nav() {
   <content  style={{ "width": '100%' }} >
      <nav className="dt w-100 border-box pa3 ph5-ns">
   <a className="dtc v-mid h2 light-gray link dim w-25" href="#" title="Home">
-    <a className="link w2 h2 nav-name" alt="Site Name">Ryan Brown</a>
+    <a className="link w2 h2 nav-name b" alt="Site Name">Ryan Brown</a>
   </a>
   <div className="dtc v-mid w-75 tr">
     <a className="link dim dark-gray f6 f5-ns dib mr3 mr4-ns" href="#portfolio" title="About">Portfolio</a>

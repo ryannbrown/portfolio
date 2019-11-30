@@ -13,7 +13,7 @@ function Contact() {
   <Container>
       <Col>
       <Col>
-            <div id="contact" class="near-black ttu f1 mt5 b">Contact</div>
+            <div id="contact" class="near-black ttu f1 mt5">Contact</div>
             </Col>
             <Row className="mt4 mb6">
            

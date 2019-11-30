@@ -19,7 +19,7 @@ function About() {
               <Col>
                 <p className="mv3">Hello! My name is Ryan.
                 A little bit about me:
-                I have a Bachelors Degree in Geographical Information Systems (GIS). I recently jumped into the realm of web development and couldn't be more thrilled. I currently build websites working with an advertising agency. I pride myself in hard work and polished results. </p>
+                I have a Bachelors Degree in Geographical Information Systems (GIS). After yearning for  a more creative outlet, I jumped into web development and couldn't be more excited with where it took me in my career. I currently am building and maintaining car dealership websites at Sokal. I pride myself in hard work and polished results. </p>
           </Col>
           </Row>
             <Row>

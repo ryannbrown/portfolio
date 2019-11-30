@@ -11,6 +11,12 @@
   color: white;
 }
 
+@media (max-width:600px) {
+    .App-header{
+    font-size: calc(8px + 2vmin);
+}
+}
+
 .link-imgs{
     font-size: calc(200px + 2vmin);
     margin-top:15%
@@ -21,4 +27,8 @@
     border-color: #06604f;
     /* margin: 10% 45%;
     width: 200px; */
+}
+
+.App-logo {
+    filter: saturate(0.6);
 }

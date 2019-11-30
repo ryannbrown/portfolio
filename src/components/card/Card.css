@@ -4,4 +4,9 @@ p {
 
 .card {
     height:100%;
+    box-shadow:0px 2px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.near-black.b.f2.card-title.h5 {
+    font-family: 'Alatsi', sans-serif;
 }
